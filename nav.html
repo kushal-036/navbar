@@ -17,15 +17,17 @@
             background-color: rgb(236, 15, 15);
             overflow: hidden;
         }
-        li{
+        li a{
             float:left;
             padding: 15px;
             margin-right: 5px;
+            text-decoration: none;
+            color: aliceblue;
         }
-        li:hover{
+        li a:hover{
             background-color: rgb(255, 0, 0);
         }
-        li.home{
+        li a.home{
             background-color: red;
         }
     </style>
@@ -33,11 +35,11 @@
 </head>
 <body>
     <ul>
-        <li class="home"> <a href="#"></a> Home</li>
-        <li> <a href="#"></a> Style</li>
-        <li> <a href="#"></a> Contact Us</li>
-        <li> <a href="#"></a> Help</li>
-
+        <li class="home"> <a href="#">Home</a> </li>
+        <li> <a href="#">Style</a> </li>
+        <li> <a href="#">Contact Us</a> </li>
+        <li> <a href="#">Help</a> </li>
+        <li >  <a class="log" href="#">Log/in</a> </li>
     </ul>
 </body>
 </html>
